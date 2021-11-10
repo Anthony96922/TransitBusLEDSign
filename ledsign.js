@@ -699,6 +699,7 @@ function charToLED(theChar) {
 				[0,0,0,0,0,0,0],
 				[0,0,0,0,0,0,0]
 			];
+			break;
 		case 0:
 			theLed = [
 				[0,0,0,0,0,0,0]
