@@ -20,7 +20,7 @@
 <body>
 <div id="wrapper">
 <div id="theMarquee">
-<?php createMarqueeBase(5*18, 7); ?>
+<?php createMarqueeBase(5*20, 7); ?>
 </div>
 <input id="theInput" name="input" type="text" value="Transit Bus LED Sign Simulator" />
 </div>

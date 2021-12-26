@@ -10,10 +10,10 @@
  * Modified by Anthony96922 for transit bus LED sign use on 11/4/21
  */
 
-var SCROLLER_LENGTH = 5*18;
+var SCROLLER_LENGTH = 5*20;
 var HEIGHT = 7;
 var theInput = $('#theInput');
-var fps = 120;
+var fps = 30;
 
 var myMessage = textToLED('Transit Bus LED Sign Simulator');
 var leftPointer = SCROLLER_LENGTH + 1;
