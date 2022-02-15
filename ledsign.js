@@ -14,6 +14,8 @@
 var SCROLLER_LENGTH = 96;
 var HEIGHT = 7;
 var theInput = $('#theInput');
+var amberSelected = $('#amber');
+var redSelected = $('#red');
 var fps = 30;
 
 var myMessage = textToLED('Transit Bus LED Sign Simulator');
@@ -26,6 +28,16 @@ theInput.change(function() {
 	myMessage = textToLED(this.value);
 	furthestLeftPoint = 0 - myMessage.length;
 	leftPointer = SCROLLER_LENGTH + 1;
+});
+
+amberSelected.change(function() {
+	$('.light').removeClass('red');
+	$('.light').addClass('amber');
+});
+
+redSelected.change(function() {
+	$('.light').removeClass('amber');
+	$('.light').addClass('red');
 });
 
 function clearLights() {
