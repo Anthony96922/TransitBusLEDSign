@@ -24,6 +24,13 @@ body {
 #theMarquee {
 	height: 50px;
 	background: #111;
+	box-shadow:
+		0px 0px 2px 0px #aaa inset,
+		0px -1px 2px 0px #aaa inset,
+		2px -5px 5px 0px #111 inset,
+		0px -5px 5px 0px #111 inset,
+		2px 5px 5px 0px #111;
+	border-radius: 5px;
 	width: 675px;
 }
 
@@ -55,8 +62,8 @@ body {
 }
 
 .on.amber {
-	background-color: #f80; /* amber */
-	box-shadow: 0px 0px 5px #f80;
+	background-color: #fa0; /* amber */
+	box-shadow: 0px 0px 5px #fa0;
 }
 
 .on.red {
