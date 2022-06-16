@@ -54,15 +54,15 @@ body {
 }
 
 .off.amber {
-	background-color: #201000;
+	background-color: #501000;
 }
 
 .off.red {
-	background-color: #200000;
+	background-color: #500000;
 }
 
 .on.amber {
-	background-color: #fa0; /* amber */
+	background-color: #f80; /* amber */
 	box-shadow: 0px 0px 5px #fa0;
 }
 
